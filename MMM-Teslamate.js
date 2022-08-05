@@ -218,6 +218,8 @@ Module.register("MMM-Teslamate", {
       isPreconditioning
     }
 
+    this.sendNotification("MMM-TESLA", { latitude: 37.142, longitude:127.070});
+
     //always graphic mode
     this.generateGraphicDom(wrapper, data);
 
